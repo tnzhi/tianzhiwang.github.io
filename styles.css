@@ -4,32 +4,31 @@ body {
 
 h1 {
     color: white;
-
 }
 
 h2 {
     color: white;
-    margin-left: 78px;
 }
 
 h3 {
     color: white;
-    margin-left: 200px;
 }
 
+.img1 {
+    margin-left: -42px;
+    margin-top: 0px;
+}
 
-img {
-    margin-left: -125px;
-    margin-top: px;
+.img2 {
+    position:fixed;
+    bottom: 1%;
+    right: 1%;
 }
 
 div.container1 {
-    height: 10em;
-    position: relative }
-div.container1 {
-    margin: 0;
-    position: absolute;
+    position:fixed;
     top: 50%;
     left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    margin-top: -90px;
+    margin-left: -110px;
+}
