@@ -1,3 +1,3 @@
-# tianzhiwang.github.io
+# Landing Page 
 
-[tianzhiwang.me](http://tianzhiwang.me/)
+[tianzhiwang.me](http://tianzhiwang.me)
