@@ -8,211 +8,147 @@
   <link rel="icon" type="image/png" href="assets/img/favicon.png">
   <link rel="icon" sizes="192x192" href="assets/img/icon.png">
 
-
   <!-- CSS  -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <!-- GoogleAnalytics -->
+
 </head>
 <body>
+
+  <!-- Nav Bar-->
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <div class="nav">
         <a id="logo-container" href="#" class="brand-logo"><img id="logo" src="assets/img/logo.png"></a>
-
         <ul class="right hide-on-med-and-down">
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#main">About Me</a></li>
+          <li><a href="#main">Projects</a></li>
           <li><a href="#contactme">Contact Me</a></li>
         </ul>
-
         <ul id="nav-mobile" class="side-nav">
-          <li><a href="#intro">Intro</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#aboutme">About Me</a></li>
+          <li><a href="#main">About Me</a></li>
+          <li><a href="#main">Projects</a></li>
           <li><a href="#contactme">Contact Me</a></li>
         </ul>
       </div>
-
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
 
+  <!-- HEADER BANNER-->
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot" id="headersection">
       <div class="container">
         <br><br>
         <h1 class="header center teal-text text-lighten-2">Tian Zhi Wang</h1>
         <div class="row center">
-          <h5 class="header col s12 light">Web Developer &bull; CS Student</h5>
+          <h5 class="header col s12 light"> Software Developer &bull; CS Student</h5>
         </div>
         <div class="nav row center">
-          <a href="#intro" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">See More</a>
+          <a href="#main" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">See More</a>
         </div>
         <br><br>
-
       </div>
     </div>
     <div class="parallax"><img src="assets/img/code.jpg" alt="Unsplashed background img 1"></div>
   </div>
 
-
-  <div class="container" id="intro">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-            <div class="center">
-              <img alt="Tian Zhi Wang" id="pictureme" class="circle responsive-img" src="assets/img/tianzhiwang.jpg">
-            </div>
-        </div>
-
-        <div class="col s12 m7">
-          <div class="icon-block" id="quickintro">
-            <h5 class="teal-text">Howdy</h5>
-
-            <p class="light">I'm Tian Zhi Wang, a fouth year Comp Sci Major at the University of Alberta.</br> I build websites. Like this one, for example.</p>
-            <a class="waves-effect waves-light btn" href="mailto:contact@tianzhiwang.me"><i class="fa fa-envelope-o"></i> Mail</a>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper" id="projects">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h4 class="header col s12 teal-text text-lighten-2">SOME PAST WORK </h4>
-          <h5 class="header col s12 light">More to Come</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/code.jpg" alt="Unsplashed background img 2"></div>
+  <!-- FIXED ACTION BUTTON-->
+  <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+    <a class="waves-effect waves-light btn-floating btn-large red" href="mailto:contact@tianzhiwang.me">
+      <i id="mail" class="fa fa-envelope circle"></i>
+    </a>
   </div>
 
 
 
-  <div class="container" >
-    <div class="section">
+  <div class="bgcolor" id="main">
+    <div class="container">
+      <div class="section">
+        <div class="row">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/img/code.jpg">
+          <div class="col s12 m12 l6">
+            <div class="card-panel white">
+              <div class="row valign-wrapper aboutme">
+                <div class="col s4 m3 l4 center">
+              <img alt="Tian Zhi Wang" id="pictureme" class="circle" src="assets/img/tianzhiwang.jpg"></div>
+              <div class="valign title-text">
+              <h5 class="teal-text">Howdy</h5>
+              <p class="light">I'm Tian Zhi Wang, a fouth year Comp Sci student at the University of Alberta. Here are a few things I've been working on. </p>
             </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">DownTo<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
             </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">DownTo<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
             </div>
+
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/agora.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Agora<i class="material-icons right">more_vert</i></span>
+                <p><a href="https://github.com/CMPUT301F14T02/Agora">Link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Agora<i class="material-icons right">close</i></span>
+                <p>A class project for a 300-level software engineering course. Agora is a question and answer Android app with geolocation, picture uploads. Built in an Agile team.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/downto.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">DownTo<i class="material-icons right">more_vert</i></span>
+                <p><a href="www.downtoapp.com">Link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Downto<i class="material-icons right">close</i></span>
+                <p>A social media Android app.</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col s12 m12 l6">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator card-image-inside" src="assets/img/pear.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">Pear<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://pearprogramming.meteor.com/">Link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Pear<i class="material-icons right">close</i></span>
+                <p>Pear is online markdown editor. Currently still under construction. Link for a preview.</p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/img/uvastats.png">
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">UVa Stats<i class="material-icons right">more_vert</i></span>
+                <p><a href="http://development.uvastats.divshot.io/">Link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">UVa Stats<i class="material-icons right">close</i></span>
+                <p>A simple angular app that shows stats and rankings of people in my University programming contest group. Stats obtained from <a href="https://uva.onlinejudge.org/">UVa Online Judge's</a> API. More stats to be added.</p>
+              </div>
+            </div>
+
           </div>
         </div>
-
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/img/code.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Pear<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Pear<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="assets/img/code.jpg">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Agora<i class="material-icons right">more_vert</i></span>
-              <p><a href="#">This is a link</a></p>
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Agora<i class="material-icons right">close</i></span>
-              <p>Here is some more information about this product that is only revealed once clicked on.</p>
-            </div>
-          </div>
-        </div>
-
-
 
       </div>
-      <div class="valign-wrapper">
-      <a class="waves-effect waves-light btn" id="morebutton" href="https://github.com/TianZhiWang">More Code On Github <i class="fa fa-github"></i>  </a></div>
-
-    </div>
-
-  </div>
-
-  <div class="parallax-container valign-wrapper" id="aboutme">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">About Me</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/code.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container" >
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">What I Do</h5>
-
-            <p class="center light">I write Javascript, Python, and Golang. I make web apps and REST APIs. I write SQL for databases. I configure cloud infrastructure on Azure, Digital Ocean, Heroku</p>
-          </div>
-        </div>
-
-        <div class="col s12 m6">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Skills</h5>
-
-            <p class="center light"><strong>Coding:</strong> Javascript, C++, Python, SQL, HTML/CSS<br><strong>Tools/Libs:</strong> Meteor/Node.js/Angular, Django, Git, Bash<br><strong>Methodology:</strong> Agile/Scrum<br><strong>Media & Design:</strong> Photoshop, Sketch 3</p>
-          </div>
-        </div>
-      </div>
-
     </div>
   </div>
 
-  <div class="parallax-container valign-wrapper"id="contactme">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Contact Me</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="assets/img/code.jpg" alt="Unsplashed background img 2"></div>
-  </div>
 
-  <div class="container">
+  <div class="container" id="contactme">
     <div class="section">
 
       <div class="row">
@@ -220,44 +156,23 @@
           <h3><i class="mdi-content-send teal-text"></i></h3>
           <h4>Contact Me</h4>
           <p class="center light">I'm on the web!</p>
-          <a class="waves-effect waves-light btn" href="mailto:contact@tianzhiwang.me"><i class="fa fa-envelope-o"></i> Mail</a>
-          <a class="waves-effect waves-light btn" href="https://github.com/TianZhiWang"><i class="fa fa-github"></i> Github</a>
-          <a class="waves-effect waves-light btn" href="https://ca.linkedin.com/in/tianzhiwang"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
-          <a class="waves-effect waves-light btn" href="https://twitter.com/TnZhi"><i class="fa fa-twitter"></i> Twitter</a>
+          <a class="waves-effect waves-light btn teal darken-3" href="mailto:contact@tianzhiwang.me"><i class="fa fa-envelope-o"></i> Mail</a>
+          <a class="waves-effect waves-light btn teal darken-3" href="https://github.com/TianZhiWang"><i class="fa fa-github"></i> Github</a>
+          <a class="waves-effect waves-light btn teal darken-3" href="https://ca.linkedin.com/in/tianzhiwang"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+          <a class="waves-effect waves-light btn teal darken-3" href="https://twitter.com/TnZhi"><i class="fa fa-twitter"></i> Twitter</a>
         </div>
       </div>
 
     </div>
   </div>
 
-
-
-
-  <footer class="page-footer teal">
-    <div class="container">
-      <div class="row">
-        <div class="col l12 s12">
-          <h5 class="white-text">Tian Zhi Wang</h5>
-          <p class="grey-text text-lighten-4">Thanks for taking the time to look through my site.</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Custom Made with the <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize CSS Framework</a>
-      Last Edited: August 7, 2015
-      </div>
-    </div>
-  </footer>
-
-
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/scollnav.js"></script>
-<script>
+  <!-- GoogleAnalytics -->
+  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -265,6 +180,6 @@
 
   ga('create', 'UA-66080028-2', 'auto');
   ga('send', 'pageview');
-
-</script></body>
+  </script>
+</body>
 </html>

@@ -1,3 +1,7 @@
+// ------------------------------
+// http://twitter.com/mattsince87
+// ------------------------------
+
 function scrollNav() {
 $('.nav a').click(function(){
   //Toggle Class
