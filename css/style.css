@@ -24,7 +24,7 @@ p {
   margin: auto;
 }
 #index-banner {
-  height: 95%;
+  height: 100%;
 }
 
 .bgcolor {
@@ -54,15 +54,14 @@ p {
   #index-banner .section {
     top: 30%;
   }
-
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner {
-    height: auto;
+    height: 100%;
   }
   #index-banner .section {
-    top: 0;
+    top: 25%;
   }
 }
 
@@ -98,3 +97,15 @@ footer.page-footer {
 .waves-effect{
   margin-top: 4px;
 }
+
+.nav-invis {
+    background-color:transparent;
+    position: absolute;
+    z-index: 999;
+}
+
+nav {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	}
