@@ -29,3 +29,5 @@ _site/
 
 ### Sass ###
 .sass-cache
+
+.vscode
