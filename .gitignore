@@ -30,4 +30,5 @@ _site/
 ### Sass ###
 .sass-cache
 
+### Editors ###
 .vscode
