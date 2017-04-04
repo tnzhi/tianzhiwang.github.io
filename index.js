@@ -112,10 +112,15 @@ function zeros(dimensions) {
 }
 
 function init() {
+    setup()
+    setInterval(update,1000/30);    
+}
+
+function setup() {
     WORLD = [];
     GQUEUE = [];
-    window.addEventListener('resize', init);
-    document.getElementById("down-arrow").addEventListener('click', init);
+    window.addEventListener('resize', setup);
+    document.getElementById("down-arrow").addEventListener('click', setup);
 
     // var dpi= window.devicePixelRatio;
     var dpi = 2;
@@ -146,6 +151,5 @@ function init() {
         col = 0;
         row++;
     }
-    setInterval(update,1000/30);
 }
 
