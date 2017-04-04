@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush|Lato|Comfortaa:300');
+
+html {
+    font-family: 'Lato', cursive;
+    -webkit-font-smoothing: antialiased;
+    color: #68737b;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 .fa {
+    color: #5495ff;
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+body {
+    margin: 0 0 0 0;
+    background-color: #f5f8fa;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Comfortaa', cursive;
+    /* http://colorzilla.com/gradient-editor/#1e5799+0,1e5799+4,5495ff+99 */
+    background: #5495ff;
+    background: -moz-linear-gradient(top, #1971ff 0%, #5495ff 99%);
+    background: -webkit-linear-gradient(top, #1971ff 0%,#5495ff 99%);
+    background: linear-gradient(to bottom, #1971ff 0%,#5495ff 99%);
+}
+
+@media only screen and (max-width : 600px) {
+    .navbar {
+        justify-content: center;
+    }
+}
+
+.navbar a {
+    height: 45px;
+    line-height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    /*color: black;*/
+    color: white;
+}
+
+.navbar a:hover {
+    /*background-color: #EEE;*/
+    font-size: 30px;
+}
+
+.navbar a:link {
+    text-decoration: none;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+}
+
+header {
+    padding-top: 10px;
+    margin: 0 0 0 0;
+    height: 500px;
+    /*background-image: linear-gradient(to top, #6E4D9B, #E82887);*/
+    /* http://www.cssmatic.com/box-shadow */
+    -webkit-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    -moz-box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    box-shadow: inset -7px 28px 29px -16px rgba(0,0,0,0.32);
+    display: flex;
+    justify-content: center;
+}
+
+header .title {
+    pointer-events:none;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+    color: #eef;
+    margin-right: 20px;
+    z-index: 2;
+}
+
+header .title h1 {
+    font-size: 80px;
+    /*color: rgba(244,176,66,1);
+    text-shadow: 1px 2px rgba(0,0,0,0.8);*/
+}
+
+header .title p {
+    font-size: 30px;
+}
+
+canvas {  
+    position: absolute;
+    width: 100%;
+    height: 510px;
+    top: 45px;
+    left: 0px;
+    background-color: #5495ff;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.see-more {
+    text-align: center;
+}
+
+#down-arrow {
+    color: #eef;
+    font-size: 50px;
+    font-family: 'Caveat Brush', cursive;
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    margin-top: -80px;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    width: 100%;
+    border: 1px solid #dcd9d9;
+}
+
+.intro {  
+    background: white;
+}
+
+.intro .about-me {
+    padding: 30px 80px 30px 80px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;    
+}
+
+.intro .about-me .bar {
+    text-align: center;
+}
+
+.intro .about-me .info {
+    margin-top: -20px;
+    max-width: 550px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.intro .about-me img {  
+    width: 170px;
+    border-radius: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.projects h2 {
+    margin-top: 50px;
+}
+
+.project-card {
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.08), 0 3px 6px rgba(0,0,0,0.15);
+    margin: 50px 80px 80px 80px;
+    max-height: 320px;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden; 
+}
+
+.project-card img {
+    height: 320px;
+    display: block;
+    border-right: 2px solid #dcd9d9;
+}
+
+.project-card .project-info {
+    margin: 20px 20px 20px 20px;
+}
+
+.project-card .project-info a {
+    margin-left: 7px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width : 900px) {
+    .project-card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-height: 600px;
+    }
+}
+
+.work {
+    background-color: white;
+    padding-bottom: 80px;
+}
+
+.work h2 {
+    margin-top: 50px;
+}
+
+.history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.history .work-time {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.history .work-time img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.history .work-time p {
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+.contact div {
+    margin-top: 10px;
+}
+
+.contact div a{
+    margin-left: 10px;
+}
+
+.contact div i {
+    margin-left: 10px;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background-color: #5495ff;
+    color: #eef;
+    font-family: 'Comfortaa', cursive;
+}
+
+footer .info {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+footer .info .copyright {
+    margin-top: 30px;
+}
+
+footer a{
+    margin-left: 10px;
+}
+
+@media only screen and (max-width : 600px) {
+    footer {
+        text-align: center;
+    }
+    footer .info {
+        margin-left: 0px;
+    }
+}
+
+/*footer::before {
+    content: '';
+    width: 100%;
+    height: 60px;
+    transform: skewY(1deg);
+    position: absolute;
+    z-index: 15;
+    margin-top: -100px;
+    background-color: #5495ff; 
+}*/
