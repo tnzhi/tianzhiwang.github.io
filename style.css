@@ -285,6 +285,13 @@ footer a{
     footer .info {
         margin-left: 0px;
     }
+    .history .work-time {
+        justify-content: center;
+    }
+    .history .work-time p {
+        margin-left: 0px;
+        text-align: center;
+    }
 }
 
 /*footer::before {
