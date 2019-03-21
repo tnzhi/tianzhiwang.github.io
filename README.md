@@ -1,3 +1,3 @@
 # Personal Page
 
-[tianzhiwang.me](http://tianzhiwang.me)
+[tnzhi.com](http://tnzhi.com)
